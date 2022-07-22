@@ -1,8 +1,8 @@
 for i in range(int(input())):
-    n=int(input())
-    s=n/2
-    n1=n[:s-1]
-    n2=n[s:]
+    n=input()
+    s=len(n)/2
+    n1=n[:int(s)]
+    n2=n[int(s):]
     if n1==n2:
         print("YES")
     else:
