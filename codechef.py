@@ -1,3 +1,4 @@
+# Lapindromes Problem Code:LAPIN
 for i in range(int(input())):
     n=input()
     s=len(n)/2
