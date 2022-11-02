@@ -1,0 +1,10 @@
+for _ in range(int(input())):
+  x,y=map(int,input().split())
+  if x%10 == 0 and y%10==0:
+    print(abs(int(x/10)-int(y/10)))
+  elif x%10 !=0 and y%10==0:
+    print(abs(int(((x/10)+1))-int((y/10))))
+  elif x%10 == 0 and y%10!=0:
+    print(abs(int(x/10)-int((y/10)+1)))
+  else:
+    print(abs(int(((x/10)+1))-int((y/10)+1)))
