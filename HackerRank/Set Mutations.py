@@ -13,3 +13,4 @@ for i in range(nb):
     else:
         a.symmetric_difference_update(l)
 print(sum(a))
+
