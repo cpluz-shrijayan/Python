@@ -14,8 +14,7 @@ In addition to solving coding challenges, I also include articles and notes abou
 
 The code in this repository is organized by source, with each folder containing the solved problems from that source. All code is written in Python, with proper commenting and documentation for easy understanding.
 
-Why use this repository:
-
+## Why use this repository:
 This repository serves as a great resource for individuals who are looking to improve their coding skills in Python. It contains a wide range of problems that cater to different skill levels, making it ideal for beginners as well as experienced coders. The solutions provided in this repository can be used as a reference for solving similar problems in future. The repository is a great platform for individuals to learn, improve and showcase their coding skills in Python.
 
 This Python Practice Repository is a great resource for individuals looking to improve their coding skills in Python. It contains a wide range of problems and solutions that cater to different skill levels. The solutions provided in this repository are well documented and tested, making it easier to understand and implement. Regular updates are made to the repository to keep it updated with the latest problems and their solutions.
