@@ -1,0 +1,29 @@
+Jump statements in Python refer to control statements that change the flow of control from its normal sequential execution. These statements are used to transfer control to a different part of the program, depending on certain conditions, or to exit a loop or a function.
+
+break statement: This statement is used to exit a for or a while loop prematurely when a certain condition is met. Once the break the statement is executed, and control is transferred outside of the loop.
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+The above code will print numbers from 0 to 4, and when it reaches the number 5, it will exit the loop.
+
+continue statement: The continue statement is used to skip the current iteration of a loop and move to the next one. This is useful when you want to skip certain iterations that do not meet a certain condition.
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+The above code will print only the odd numbers from 1 to 9.
+
+pass statement: The pass statement is a placeholder statement that does nothing. It is used when you need to define a code block but do not want to execute anything yet.
+for i in range(10):
+    pass
+The above code will not print anything, but it will also not raise an error.
+
+return statement: The return statement is used to exit a function and return a value. The function stops executing and the control is transferred back to the calling code.
+def add_numbers(a, b):
+    return a + b
+result = add_numbers(3, 4)
+print(result)
+The above code will return the result of 7.
+
+Jump statements in Python are useful in controlling the flow of a program, based on certain conditions, and in exiting loops or functions. They are an important aspect of any programming language and allow you to write efficient and flexible code.
